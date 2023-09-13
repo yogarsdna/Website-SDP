@@ -52,7 +52,6 @@ body {
   top: 696px;
   position: absolute;
   background: #0072bc;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   border-radius: 10px;
   cursor: pointer;
   color: white;
@@ -90,7 +89,6 @@ body {
   top: 21px;
   position: absolute;
   background: white;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   border-radius: 10px;
   border: 2px #9fcae6 solid;
   padding-left: 15px;
@@ -150,15 +148,6 @@ a {
   left: 1039px;
   top: 241px;
   position: absolute;
-}
-
-.Vector {
-  width: 119.53px;
-  height: 134.94px;
-  left: 8.5px;
-  top: 14.88px;
-  position: absolute;
-  background: white;
 }
 
 .Image3 {
