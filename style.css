@@ -1,20 +1,21 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   background: #094067;
-  font-family: Inter, sans-serif;
-  color: white;
+  font-family: Arial, sans-serif;
+  color: black;
   text-align: center;
   margin: 0;
   padding: 0;
+  min-width: max-content;
 }
 
 .Desktop1 {
   position: relative;
-  background: #094067;
+  background: #f6f6f6;
 }
 
 .Image2 {
@@ -28,10 +29,7 @@ body {
 .Rectangle9 {
   width: 778px;
   height: 1024px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: linear-gradient(283deg, #094067 10%, rgba(9, 64, 103, 0) 72%);
+  background: linear-gradient(283deg, #f6f6f6 10%, rgba(246, 246, 246, 0) 72%);
 }
 
 .Welcome {
@@ -39,27 +37,27 @@ body {
   top: 426px;
   position: absolute;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 48px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
 }
 
 .Rectangle8 {
   padding: 10px;
-  width: 154px;
-  height: 30px;
+  width: 145px;
+  height: 25px;
   left: 1029px;
   top: 696px;
   position: absolute;
-  background: #3da9fc;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  background: #0072bc;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 10px;
   cursor: pointer;
   color: white;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
 }
@@ -71,7 +69,7 @@ body {
   text-align: center;
   color: white;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
   cursor: pointer;
@@ -87,14 +85,14 @@ body {
 
 .Rectangle6 {
   width: 306px;
-  height: 49px;
+  height: 40px;
   left: 0px;
   top: 21px;
   position: absolute;
   background: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
-  border: 1px #d9d9d9 solid;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 10px;
+  border: 2px #9fcae6 solid;
   padding-left: 15px;
 }
 
@@ -104,7 +102,7 @@ body {
   position: absolute;
   color: #d8eefe;
   font-size: 15px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
 }
@@ -123,24 +121,24 @@ body {
   position: absolute;
   color: #d8eefe;
   font-size: 15px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
 }
 
 a {
   text-decoration: none;
-  color: #ef4565;
+  color: #0d8de0;
 }
 
-.ForgotPassword {
-  left: 1055px;
+.SignUp {
+  left: 1080px;
   top: 765px;
   position: absolute;
   text-align: center;
-  color: #ef4565;
+  color: #0d8de0;
   font-size: 15px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
   text-decoration: none;
@@ -172,17 +170,27 @@ a {
 }
 
 .UsernameOrEmail {
-  color: #d8eefe;
+  color: black;
   font-size: 15px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
 }
 
 .Password {
-  color: #d8eefe;
+  color: black;
   font-size: 15px;
-  font-family: Inter;
+  font-family: Arial;
   font-weight: 734;
   word-wrap: break-word;
+}
+
+.grid-container {
+  display: grid;
+  height: 2vh;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+  background-color: #0072bc;
 }
