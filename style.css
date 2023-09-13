@@ -44,6 +44,18 @@ body {
   word-wrap: break-word;
 }
 
+.Register {
+    left: 953px;
+    top: 426px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    font-family: Arial;
+    font-weight: 734;
+    word-wrap: break-word;
+  }
+
 .Rectangle8 {
   padding: 10px;
   width: 145px;
