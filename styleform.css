@@ -78,6 +78,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 width: 19.125vw;
+margin-bottom: 3vh;
 }
 
 .input-instruction{
@@ -99,7 +100,12 @@ width: 19.125vw;
   background: #FFF;
   margin-bottom: 0.5vw;
   
-  font-family: Arial, sans-serif;
+  color: #094067;
+    font-family: Arial;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .forgot{
