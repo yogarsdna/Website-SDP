@@ -4,44 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Form</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="styleform.css" />
     <link rel="icon" href="images/logo.png">
   </head>
+  
   <body>
-    <div class="Desktop1">
-      <img class="Image2" src="images/uni.jpg" />
-      <div class="Rectangle9"></div>
-      <div class="Welcome">Welcome!</div>
-      <div class="Rectangle8" onclick="alert()">Log In</div>
-      <form action="login_process.php" method="POST" class="LoginForm">
-        <div class="Group1">
-          <div class="UsernameOrEmail">Username or Email</div>
+
+    <div class="container">
+        
+      <div class="left-column">
+      
+            <!-- Content for the left column goes here -->
+            <!-- Content for the left column goes here -->
+              <div class="image-container">
+                <img class="Image2" src="images/uni2.png" alt="Image" />
+                <div class="gradient-overlay"></div>
+            </div>
+          </div>
+        
+      <div class="right-column centered-content">
+            <!-- Content for the right column goes here -->
+            <h1 class="header1 left-align">Welcome</h1>
+                    <div class="Group1">
+          <div class="input-instruction left-align">Username or Email</div>
           <input
             type="text"
             id="username"
             name="username"
-            class="Rectangle6"
+            class="input-box"
             required
           />
         </div>
         <div class="Group2">
-          <div class="Password">Password</div>
+          <div class="input-instruction left-align">Password</div>
           <input
             type="password"
             id="password"
             name="password"
-            class="Rectangle6"
+            class="input-box"
             required
           />
         </div>
-      </form>
-      <div class="SignUp">
-        <a href="">Sign Up</a>
+        
+      <div class="forgot left-align">
+        <a href="">Forgot password</a>
       </div>
-      <div class="Logo">
-        <div class="Vector"></div>
-        <img class="Image3" src="images/logo.png" />
+        
+      <button class="button1">Submit</button>
+      
       </div>
+      
     </div>
+
   </body>
 </html>
