@@ -3,39 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Register Form</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="styleform.css" />
     <link rel="icon" href="images/logo.png">
   </head>
+  
   <body>
-    <div class="Desktop1">
-      <img class="Image2" src="images/uni.jpg" />
-      <div class="Rectangle9"></div>
-      <div class="Register">Register</div>
-      <div class="Rectangle8" onclick="alert()">Next</div>
 
-      <form action="login_process.php" method="POST" class="LoginForm">
-        <div class="Group1">
-          <div class="UsernameOrEmail">Username or Email</div>
+    <div class="container">
+        
+      <div class="left-column">
+      
+            <!-- Content for the left column goes here -->
+            <!-- Content for the left column goes here -->
+              <div class="image-container">
+                <img class="Image2" src="images/uni2.png" alt="Image" />
+                <div class="gradient-overlay"></div>
+            </div>
+          </div>
+        
+      <div class="right-column centered-content">
+            <!-- Content for the right column goes here -->
+            <h1 class="header1 left-align">Register</h1>
+            <div class="Group3">
+              <div class="input-instruction left-align">Full Legal Name</div>
+              <input
+                type="text"
+                id="legalname"
+                name="legalname"
+                class="input-box"
+                required
+              />
+            </div>
+            <div class="Group4">
+              <div class="input-instruction left-align">Date of Birth</div>
+              <input
+                type="text"
+                id="dob"
+                name="dob"
+                class="input-box"
+                required
+              />
+            </div>
+            <div class="Group5">
+              <div class="input-instruction left-align">Email</div>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="input-box"
+                required
+              />
+            </div>
+            <div class="Group6">
+              <div class="input-instruction left-align">Phone</div>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                class="input-box"
+                required
+              />
+            </div>
+          <div class="Group7">
+          <div class="input-instruction left-align">Faculty</div>
           <input
             type="text"
-            id="username"
-            name="username"
-            class="Rectangle6"
+            id="faculty"
+            name="faculty"
+            class="input-box"
             required
           />
         </div>
-        <div class="Group2">
-          <div class="Password">Password</div>
+        <div class="Group8">
+          <div class="input-instruction left-align">Grade</div>
           <input
             type="text"
-            id="password"
-            name="password"
-            class="Rectangle6 PasswordInput"
+            id="grade"
+            name="grade"
+            class="input-box"
             required
           />
         </div>
-      </form>
+        
+      <button class="button1">Next</button>
+
+      </div>
+      
     </div>
+
   </body>
 </html>
