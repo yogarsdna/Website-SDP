@@ -86,6 +86,17 @@ html {
   margin-bottom: 3vh;
 }
 
+.header2 {
+  font-style: normal;
+  line-height: normal;
+  width: 19.125vw;
+  margin-bottom: 3vh;
+  color: black;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+}
+
 .input-instruction {
   color: #000;
   font-family: Arial;
@@ -111,6 +122,8 @@ html {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  padding-left: 5px;
 }
 
 .forgot {
@@ -145,6 +158,26 @@ html {
   line-height: normal;
 }
 
+.button2 {
+  margin-top: 2vw;
+  width: 9.625vw;
+  height: 3.0625vw;
+  flex-shrink: 0;
+  border-radius: 0.625vw;
+  border: none;
+  background: #0072bc;
+
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .SignUp {
   width: 306px;
   text-align: center;
@@ -156,10 +189,52 @@ html {
 
   cursor: pointer;
   margin-top: 1vw;
+
+  text-decoration: none;
 }
 
 .Logo {
   width: 136px;
   height: 155.12px;
   margin-bottom: 20px;
+}
+
+select {
+  width: 19.8vw;
+  height: 2.3vw;
+  flex-shrink: 0;
+  border-radius: 0.625vw;
+  border: 2px solid #9fcae6;
+  background: #fff;
+  margin-bottom: 0.5vw;
+
+  color: #094067;
+  font-family: Arial;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-left: 5px;
+}
+
+.Skip {
+  width: 306px;
+  text-align: center;
+  color: #838383;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+
+  cursor: pointer;
+  margin-top: 1vw;
+
+  text-decoration: none;
+}
+
+.plain{
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
 }

@@ -6,92 +6,78 @@
     <title>Register Form</title>
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="stylesheet" href="styleform.css" />
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/logo.png" />
   </head>
-  
-  <body>
 
+  <body>
     <div class="container">
-        
       <div class="left-column">
-      
-            <!-- Content for the left column goes here -->
-            <!-- Content for the left column goes here -->
-              <div class="image-container">
-                <img class="Image2" src="images/uni2.png" alt="Image" />
-                <div class="gradient-overlay"></div>
-            </div>
-          </div>
-        
+        <!-- Content for the left column goes here -->
+        <!-- Content for the left column goes here -->
+        <div class="image-container">
+          <img class="Image2" src="images/uni2.png" alt="Image" />
+          <div class="gradient-overlay"></div>
+        </div>
+      </div>
+
       <div class="right-column centered-content">
-            <!-- Content for the right column goes here -->
-            <h1 class="header1 left-align">Register</h1>
-            <div class="Group3">
-              <div class="input-instruction left-align">Full Legal Name</div>
-              <input
-                type="text"
-                id="legalname"
-                name="legalname"
-                class="input-box"
-                required
-              />
-            </div>
-            <div class="Group4">
-              <div class="input-instruction left-align">Date of Birth</div>
-              <input
-                type="text"
-                id="dob"
-                name="dob"
-                class="input-box"
-                required
-              />
-            </div>
-            <div class="Group5">
-              <div class="input-instruction left-align">Email</div>
-              <input
-                type="text"
-                id="email"
-                name="email"
-                class="input-box"
-                required
-              />
-            </div>
-            <div class="Group6">
-              <div class="input-instruction left-align">Phone</div>
-              <input
-                type="text"
-                id="phone"
-                name="phone"
-                class="input-box"
-                required
-              />
-            </div>
-          <div class="Group7">
-          <div class="input-instruction left-align">Faculty</div>
+        <!-- Content for the right column goes here -->
+        <h1 class="header1 left-align">Register</h1>
+        <div class="Group3">
+          <div class="input-instruction left-align">Full Legal Name</div>
           <input
             type="text"
-            id="faculty"
-            name="faculty"
+            id="legalname"
+            name="legalname"
             class="input-box"
             required
           />
+        </div>
+        <div class="Group4">
+          <div class="input-instruction left-align">Date of Birth</div>
+          <input type="date" id="dob" name="dob" class="input-box" required />
+        </div>
+        <div class="Group5">
+          <div class="input-instruction left-align">Email</div>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            class="input-box"
+            required
+          />
+        </div>
+        <div class="Group6">
+          <div class="input-instruction left-align">Phone</div>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            class="input-box"
+            required
+          />
+        </div>
+        <div class="Group7">
+          <div class="input-instruction left-align">Faculty</div>
+          <select id="faculty" name="faculty" required>
+            <option value="" disabled selected>Select Faculty</option>
+            <option value="faculty1">Faculty 1</option>
+            <option value="faculty2">Faculty 2</option>
+            <option value="faculty3">Faculty 3</option>
+          </select>
         </div>
         <div class="Group8">
           <div class="input-instruction left-align">Grade</div>
-          <input
-            type="text"
-            id="grade"
-            name="grade"
-            class="input-box"
-            required
-          />
+          <select id="grade" name="grade" required>
+            <option value="" disabled selected>Select Grade</option>
+            <option value="grade1">Grade 1</option>
+            <option value="grade2">Grade 2</option>
+            <option value="grade3">Grade 3</option>
+          </select>
         </div>
-        
-      <button class="button1">Next</button>
 
+        <button class="button2"><a class="plain" href="avatar.html">Next</a></button>
       </div>
-      
     </div>
-
   </body>
 </html>
