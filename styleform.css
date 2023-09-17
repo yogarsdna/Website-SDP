@@ -1,61 +1,66 @@
-*{
-    margin : 0;
-    padding : 0;
-    background-color: #F6F6F6;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
 
 /* Apply styles to the container */
-body, html {
-    margin: 0;
-    border: 0;
-    padding: 0;
+body,
+html {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 .image-container {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 /* CSS for the image */
 .Image2 {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: box;
 }
 
 /* CSS for the gradient overlay */
 .gradient-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(89.92% 78.82% at 42.22% 48.34%, rgba(246, 246, 246, 0.00) 13.75%, #F6F6F6 49.61%); /* Adjust the gradient as needed */
-    z-index: 1; /* Place the overlay above the image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    283deg,
+    #f6f6f6 10%,
+    rgba(246, 246, 246, 0) 72%
+  ); /* Adjust the gradient as needed */
+  z-index: 1; /* Place the overlay above the image */
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* This ensures the container takes up at least the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* This ensures the container takes up at least the viewport height */
 }
 
 /* Style the left and right columns */
 .left-column {
-    flex: 1; /* Make them equally sized */
-    padding: 20px;
-/*     border: 1px solid #ccc; */
+  flex: 1; /* Make them equally sized */
+  padding: 0px;
+  /*     border: 1px solid #ccc; */
 }
 
-.right-column{
-    flex: 1; /* Make them equally sized */
-    padding: 20px;
-/*     border: 1px solid #ccc; */
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.right-column {
+  flex: 1; /* Make them equally sized */
+  padding: 20px;
+  /*     border: 1px solid #ccc; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .centered-content {
@@ -67,21 +72,21 @@ body, html {
 }
 
 .left-align {
-    text-align: left;
+  text-align: left;
 }
 
-.header1{
-color: #000;
-font-family: Arial;
-font-size: 3vw;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-width: 19.125vw;
-margin-bottom: 3vh;
+.header1 {
+  color: #000;
+  font-family: Arial;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 19.125vw;
+  margin-bottom: 3vh;
 }
 
-.input-instruction{
+.input-instruction {
   color: #000;
   font-family: Arial;
   font-size: 0.9375vw;
@@ -91,51 +96,70 @@ margin-bottom: 3vh;
   margin-bottom: 0.25vw;
 }
 
-.input-box{
+.input-box {
   width: 19.125vw;
   height: 2vw;
   flex-shrink: 0;
   border-radius: 0.625vw;
-  border: 2px solid #9FCAE6;
-  background: #FFF;
+  border: 2px solid #9fcae6;
+  background: #fff;
   margin-bottom: 0.5vw;
-  
+
   color: #094067;
-    font-family: Arial;
-    font-size: 0.85rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  font-family: Arial;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.forgot{
+.forgot {
   color: #838383;
   font-family: Inter;
   font-size: 0.9375vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  
+
   width: 19.125vw;
   margin-bottom: 0.5vw;
 }
 
-.button1{
+.button1 {
   margin-top: 0.5vw;
   width: 9.625vw;
   height: 3.0625vw;
   flex-shrink: 0;
   border-radius: 0.625vw;
   border: none;
-  background: #0072BC;
-  
+  background: #0072bc;
+
   cursor: pointer;
-  
-  color: #FFF;
+
+  color: #fff;
   text-align: center;
   font-family: Arial;
   font-size: 1vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.SignUp {
+  width: 306px;
+  text-align: center;
+  color: #0d8de0;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+
+  cursor: pointer;
+  margin-top: 1vw;
+}
+
+.Logo {
+  width: 136px;
+  height: 155.12px;
+  margin-bottom: 20px;
 }
