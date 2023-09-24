@@ -1,0 +1,104 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.logout {
+  float: right;
+  font-size: 20px;
+}
+
+.wrapper {
+  width: auto;
+  margin: auto;
+  position: relative;
+}
+
+.menu {
+  float: right;
+}
+
+li {
+  margin-right: 45px;
+}
+
+a {
+  color: #006bb4;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  color: #006bb4;
+  font-family: Arial;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.column {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 90px;
+}
+
+.tsu {
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.tsulogo {
+  float: left;
+  margin-top: 15px;
+  width: 40.33px;
+  height: 46px;
+}
+
+.tsuadmin {
+  float: left;
+  padding-bottom: 180px;
+}
+
+tr,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  height: 50%;
+}
