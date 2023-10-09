@@ -156,7 +156,72 @@ button {
   margin-left: 158vh;
   padding-bottom: 40px;
 }
+.addfacplus {
+  font-weight: bold;
+  color: #006bb4;
+  font-size: 30px;
+  font-family: Arial;
+  word-wrap: break-word;
+}
 
+.addfaculties {
+  width: 170vh;
+  float: right;
+  margin: auto;
+  margin-top: 73px;
+  margin-bottom: 13px;
+}
+
+.containernavigate {
+  height: 93px;
+  width: 171vh;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Style for the rows */
+.row {
+  display: flex;
+  justify-content: space-between; /* Space items evenly within each row */
+  margin-bottom: 20px; /* Add margin between rows */
+}
+
+.item1biru {
+  background-color: #0d8de0;
+  text-align: left; /* Align text to the right */
+  position: relative; /* Enable absolute positioning for the text */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center vertically */
+  width: 50%; /* Set the desired width of each item */
+  border-radius: 10px;
+  height: 203px;
+  margin-right: 18px;
+  padding: 10px; /* Add padding to the items */
+}
+
+.itemlastbiru {
+  background-color: #0d8de0;
+  text-align: left; /* Align text to the right */
+  position: relative; /* Enable absolute positioning for the text */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center vertically */
+  width: 50%; /* Set the desired width of each item */
+  border-radius: 10px;
+  height: 203px;
+  padding: 10px; /* Add padding to the items */
+}
+
+.itembirutext {
+  position: absolute; /* Position the text absolutely */
+  bottom: 0; /* Align text to the bottom */
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding-bottom: 35px;
+}
 
 .footer {
   width: 170vh;
@@ -185,4 +250,3 @@ button {
   padding: 20px; /* Add padding to create space around the content */
   box-sizing: border-box; /* Include padding in the height calculation */
 }
-
