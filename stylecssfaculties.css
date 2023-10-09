@@ -82,17 +82,6 @@ nav ul li {
   font-style: italic;
 }
 
-.imagecenter {
-  display: block;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
-img {
-  width: 170vh;
-  height: 200px;
-}
-
 .containerlogo {
   text-align: center;
 }
@@ -132,117 +121,51 @@ img {
   font-weight: 700;
   word-wrap: break-word;
   margin-top: 73px;
-  margin-bottom: 13px;
+  margin-bottom: 20px;
 }
-
-.containernavigate {
-  height: 93px;
-  width: 171vh;
-  display: block;
-  margin: auto;
+.buttAddFac {
+  width: 211px;
+  height: 46px;
 }
-
-/* Style for the rows */
-.row {
-  display: flex;
-  justify-content: space-between; /* Space items evenly within each row */
-  margin-bottom: 20px; /* Add margin between rows */
-}
-
-/* Style for items within the rows */
 .item1 {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  width: 50%; /* Set the desired width of each item */
-  background: #ffcf87;
-  border-radius: 10px;
-  height: 93px;
-  margin-right: 18px;
-  padding: 10px; /* Add padding to the items */
+  justify-content: space-evenly;
 }
-
-.item2 {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 50%; /* Set the desired width of each item */
-  background: #62de93;
-  border-radius: 10px;
-  height: 93px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.pohonautumn {
-  width: 87px;
-  height: 87px;
-}
-.pohonspring {
-  width: 52px;
-  height: 77px;
-}
-
-.autumnperiodtext {
-  color: white;
-  font-size: 32px;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-  margin-right: 10px;
-}
-
-.item1biru {
-  border: 2px solid #006bb4;
-  display: flex; /* Enable flexbox layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  width: 50%; /* Set the desired width of each item */
-  border-radius: 10px;
-  height: 93px;
-  margin-right: 18px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.item2biru {
-  display: flex; /* Enable flexbox layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  width: 50%; /* Set the desired width of each item */
-  border: 2px solid #006bb4;
-  border-radius: 10px;
-  height: 93px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.itembirutexted {
-  width: 126px;
-  height: 56px;
-  text-align: center;
+.addfactext {
   color: #006bb4;
-  font-size: 24px;
+  font-size: 20px;
   font-family: Arial;
-  font-style: italic;
   font-weight: 400;
   word-wrap: break-word;
 }
-.itembirutext {
-  color: #006bb4;
-  font-size: 24px;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
+button {
+  border: 4px solid #006bb4;
+  border-radius: 10px;
+}
+.button {
+  background-color: #fff; /* Background color of the button */
+  color: #006bb4; /* Text color */
+  padding: 10px 20px; /* Button padding */
+  border: 2px solid #006bb4; /* Add a 2px solid border with the same color as the background */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  width: 211px;
+  height: 46px;
+  display: block;
+  margin: auto;
+  margin-left: 158vh;
+  padding-bottom: 40px;
 }
 
-footer {
+
+.footer {
   width: 170vh;
   margin: auto;
   background-color: #006bb4; /* Background color of the footer */
   color: #fff; /* Text color */
   text-align: right; /* Align text to the right */
   position: relative; /* Enable absolute positioning for the text */
-  height: 143px; /* Set the custom height for the footer */
+  height: 143px;
 }
 
 .bottom-right-text {
@@ -262,3 +185,4 @@ footer {
   padding: 20px; /* Add padding to create space around the content */
   box-sizing: border-box; /* Include padding in the height calculation */
 }
+
