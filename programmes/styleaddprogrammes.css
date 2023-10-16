@@ -121,7 +121,7 @@ nav ul li {
   font-weight: 700;
   word-wrap: break-word;
   margin-top: 73px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .buttAddFac {
   width: 211px;
@@ -140,22 +140,29 @@ nav ul li {
   word-wrap: break-word;
 }
 button {
-  border: 4px solid #006bb4;
+  border: 4px solid;
   border-radius: 10px;
 }
+
 .button {
-  background-color: #fff; /* Background color of the button */
-  color: #006bb4; /* Text color */
-  padding: 10px 20px; /* Button padding */
-  border: 2px solid #006bb4; /* Add a 2px solid border with the same color as the background */
-  cursor: pointer; /* Add a pointer cursor on hover */
-  width: 211px;
+  background-color: #006bb4;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 512px;
   height: 46px;
   display: block;
   margin: auto;
-  margin-left: 158vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
 }
+
 .addfacplus {
   font-weight: bold;
   color: #006bb4;
@@ -230,7 +237,7 @@ button {
   color: #fff; /* Text color */
   text-align: right; /* Align text to the right */
   position: relative; /* Enable absolute positioning for the text */
-  height: 143px;
+  height: 163px;
 }
 
 .bottom-right-text {
@@ -246,7 +253,111 @@ button {
 }
 
 .content-container {
-  min-height: 115vh; /* Minimum height to push content above the footer */
+  min-height: 110vh; /* Minimum height to push content above the footer */
   padding: 20px; /* Add padding to create space around the content */
   box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+.input-container {
+  text-align: start; /* Center the contents horizontally */
+  margin-left: 35vh;
+  width: 110vh;
+  margin-bottom: 20px;
+}
+.label {
+  color: black;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  color: #094067;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding-left: 10px;
+  height: 50px;
+  width: 120vh;
+  border: 2px solid #9fcae6; /* Add a border */
+  border-radius: 10px; /* Add rounded corners */
+  font-size: 16px; /* Set the font size */
+  outline: none; /* Remove the outline on focus */
+  transition: border-color 0.3s; /* Add a smooth transition for border color changes */
+}
+
+/* Style for the input field when it's focused */
+input[type="text"]:focus {
+  border-color: #006bb4; /* Change the border color on focus */
+}
+
+.button-container {
+  margin-left: 72vh;
+  display: inline-flex;
+  flex-direction: row; /* Arrange buttons in a row */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+}
+.buttonsave {
+  background-color: #006bb4;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 217px;
+  height: 46px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding-top: 14px;
+}
+
+select {
+  color: #094067;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding-left: 10px;
+  height: 54px;
+  width: 121.6vh;
+  border: 2px solid #9fcae6; /* Add a border */
+  border-radius: 10px; /* Add rounded corners */
+  font-size: 16px; /* Set the font size */
+  outline: none; /* Remove the outline on focus */
+  transition: border-color 0.3s; /* Add a smooth transition for border */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("/images/Polygon\ 4.png"); /* Use a custom arrow image */
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position: calc(100% - 20px) center;
+}
+
+.buttondelete {
+  background-color: #c00000;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 217px;
+  height: 46px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding-top: 14px;
 }

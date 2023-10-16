@@ -1,0 +1,249 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.logout {
+  float: right;
+  font-size: 20px;
+}
+
+.wrapper {
+  border-bottom: 4px #006bb4 solid;
+  width: 170vh;
+  margin: auto;
+  height: 130px;
+  margin-bottom: 40px;
+}
+
+.menu {
+  float: right;
+}
+
+li {
+  margin-right: 45px;
+}
+
+a {
+  color: #006bb4;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  background: #ffffff;
+}
+
+nav ul {
+  height: 130px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  color: #006bb4;
+  font-family: Arial;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+.tsu {
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.tsulogo {
+  float: left;
+  margin-top: 15px;
+  width: 40.33px;
+  height: 46px;
+}
+
+.tsuadmin {
+  float: left;
+  font-style: italic;
+}
+
+.containerlogo {
+  text-align: center;
+}
+
+.dashboard {
+  width: 170vh;
+  display: block;
+  margin: auto;
+  color: rgba(131, 131, 131, 0.63);
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.navigateto {
+  width: 170vh;
+  display: block;
+  margin: auto;
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 13px;
+}
+
+.managetext {
+  width: 170vh;
+  display: block;
+  margin: auto;
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-top: 73px;
+  margin-bottom: 20px;
+}
+.buttAddFac {
+  width: 211px;
+  height: 46px;
+}
+.item1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.addfactext {
+  color: #006bb4;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+button {
+  border: 4px solid #006bb4;
+  border-radius: 10px;
+}
+.button {
+  background-color: #fff; /* Background color of the button */
+  color: #006bb4; /* Text color */
+  padding: 10px 20px; /* Button padding */
+  border: 2px solid #006bb4; /* Add a 2px solid border with the same color as the background */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  width: 231px;
+  height: 46px;
+  display: block;
+  margin: auto;
+  margin-left: 158vh;
+  padding-bottom: 40px;
+}
+.addfacplus {
+  font-weight: bold;
+  color: #006bb4;
+  font-size: 30px;
+  font-family: Arial;
+  word-wrap: break-word;
+}
+
+.addfaculties {
+  width: 170vh;
+  float: right;
+  margin: auto;
+  margin-top: 73px;
+  margin-bottom: 13px;
+}
+
+.containernavigate {
+  width: 171vh;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Style for the rows */
+.row {
+  display: flex;
+  justify-content: space-between; /* Space items evenly within each row */
+  margin-bottom: 20px; /* Add margin between rows */
+}
+
+.item1biru {
+  background-color: #0d8de0;
+  width: 100%; /* Set the desired width of the container */
+  border-radius: 10px;
+  height: 56px;
+  
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.itembiruitalic{
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+    font-weight: 0;
+}
+
+
+.itembirutext {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  width: 170vh;
+  margin: auto;
+  background-color: #006bb4; /* Background color of the footer */
+  color: #fff; /* Text color */
+  text-align: right; /* Align text to the right */
+  position: relative; /* Enable absolute positioning for the text */
+  height: 143px;
+}
+
+.bottom-right-text {
+  position: absolute; /* Position the text absolutely */
+  bottom: 0; /* Align text to the bottom */
+  right: 10px;
+  padding: 10px; /* Align text 10 pixels from the right edge */
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.content-container {
+  min-height: 120vh; /* Minimum height to push content above the footer */
+    margin: 0;
+  box-sizing: border-box; /* Include padding in the height calculation */
+}

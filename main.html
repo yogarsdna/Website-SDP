@@ -19,11 +19,35 @@
                 <p class="tsuadmin">admin</p>
               </div>
             </li>
-            <li class="tsu">TSU</li>
+            <a href="../main.html"><li class="tsu">TSU</li></a> 
             <li><a href="">Dashboard</a></li>
             <li><a href="">Autumn</a></li>
             <li><a href="">Spring</a></li>
-            <li><a href="">Manage</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">Manage</button>
+                <div class="dropdown-content">
+                  <a
+                    class="dropdowncontents"
+                    href="/faculties/managefaculties.html"
+                    >Faculty</a
+                  >
+                  <a
+                    class="dropdowncontents"
+                    href="/programmes/programmespage.html"
+                    >Programme</a
+                  >
+                  <a class="dropdowncontents" href="/groups/managegroups.html"
+                    >Group</a
+                  >
+                  <a
+                    class="dropdowncontents"
+                    href="/courseworks/managecourseworkpage.html"
+                    >Disciplines</a
+                  >
+                </div>
+              </div>
+            </li>
             <a class="logout" href="">Log out</a>
           </ul>
         </div>
@@ -48,21 +72,23 @@
       <div class="managetext">Manage</div>
       <div class="containernavigate">
         <div class="row">
-          <a class="item1biru" href="managefaculties.html">
+          <a class="item1biru" href="/faculties/managefaculties.html">
             <p class="itembirutext">Faculty</p>
           </a>
-          <div class="item1biru">
-            <p class="itembirutexted">Educational Directions</p>
-          </div>
-          <div class="item1biru">
-            <p class="itembirutext">Groups</p>
-          </div>
-          <div class="item1biru">
-            <p class="itembirutext">Disciplines</p>
-          </div>
-          <div class="item2biru">
-            <p class="itembirutext">Request</p>
-          </div>
+          <a class="item1biru" href="#edcdirection">
+            <p class="itembirutext">Education Direction</p></a
+          >
+          <a class="item1biru" href="/groups/managegroups.html">
+            <p class="itembirutext">Groups</p></a
+          >
+
+          <a class="item1biru" href="/programmes/programmespage.html">
+            <p class="itembirutext">Disciplines</p></a
+          >
+
+          <a class="item1biru" href="#request">
+            <p class="itembirutext">Request</p></a
+          >
         </div>
       </div>
     </div>

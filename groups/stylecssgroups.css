@@ -82,17 +82,6 @@ nav ul li {
   font-style: italic;
 }
 
-.imagecenter {
-  display: block;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
-img {
-  width: 170vh;
-  height: 200px;
-}
-
 .containerlogo {
   text-align: center;
 }
@@ -132,14 +121,62 @@ img {
   font-weight: 700;
   word-wrap: break-word;
   margin-top: 73px;
+  margin-bottom: 20px;
+}
+.buttAddFac {
+  width: 211px;
+  height: 46px;
+}
+.item1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.addfactext {
+  color: #006bb4;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+button {
+  border: 4px solid #006bb4;
+  border-radius: 10px;
+}
+.button {
+  background-color: #fff; /* Background color of the button */
+  color: #006bb4; /* Text color */
+  padding: 10px 20px; /* Button padding */
+  border: 2px solid #006bb4; /* Add a 2px solid border with the same color as the background */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  width: 211px;
+  height: 46px;
+  display: block;
+  margin: auto;
+  margin-left: 155.5vh;
+  padding-bottom: 40px;
+}
+.addfacplus {
+  font-weight: bold;
+  color: #006bb4;
+  font-size: 30px;
+  font-family: Arial;
+  word-wrap: break-word;
+}
+
+.addfaculties {
+  width: 170vh;
+  float: right;
+  margin: auto;
+  margin-top: 73px;
   margin-bottom: 13px;
 }
 
 .containernavigate {
-  height: 93px;
   width: 171vh;
   display: block;
   margin: auto;
+  margin-top: 20px;
 }
 
 /* Style for the rows */
@@ -149,100 +186,45 @@ img {
   margin-bottom: 20px; /* Add margin between rows */
 }
 
-/* Style for items within the rows */
-.item1 {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 50%; /* Set the desired width of each item */
-  background: #ffcf87;
-  border-radius: 10px;
-  height: 93px;
-  margin-right: 18px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.item2 {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 50%; /* Set the desired width of each item */
-  background: #62de93;
-  border-radius: 10px;
-  height: 93px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.pohonautumn {
-  width: 87px;
-  height: 87px;
-}
-.pohonspring {
-  width: 52px;
-  height: 77px;
-}
-
-.autumnperiodtext {
-  color: white;
-  font-size: 32px;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-  margin-right: 10px;
-}
-
 .item1biru {
-  border: 2px solid #006bb4;
-  display: flex; /* Enable flexbox layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  width: 50%; /* Set the desired width of each item */
+  background-color: #0d8de0;
+  width: 23%; /* Set the desired width of the container */
   border-radius: 10px;
-  height: 93px;
-  margin-right: 18px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.item2biru {
-  display: flex; /* Enable flexbox layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  width: 50%; /* Set the desired width of each item */
-  border: 2px solid #006bb4;
-  border-radius: 10px;
-  height: 93px;
-  padding: 10px; /* Add padding to the items */
-}
-
-.itembirutexted {
-  width: 126px;
   height: 56px;
-  text-align: center;
-  color: #006bb4;
-  font-size: 24px;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-}
-.itembirutext {
-  color: #006bb4;
-  font-size: 24px;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
+  margin-right: 18px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
-footer {
+.itemlastbiru {
+  background-color: #0d8de0;
+  width: 23%; /* Set the desired width of the container */
+  border-radius: 10px;
+  height: 56px;
+  margin-right: 18px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.itembirutext {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
   width: 170vh;
   margin: auto;
   background-color: #006bb4; /* Background color of the footer */
   color: #fff; /* Text color */
   text-align: right; /* Align text to the right */
   position: relative; /* Enable absolute positioning for the text */
-  height: 143px; /* Set the custom height for the footer */
+  height: 143px;
 }
 
 .bottom-right-text {
@@ -258,70 +240,7 @@ footer {
 }
 
 .content-container {
-  min-height: 115vh; /* Minimum height to push content above the footer */
+  min-height: 145vh; /* Minimum height to push content above the footer */
   padding: 20px; /* Add padding to create space around the content */
   box-sizing: border-box; /* Include padding in the height calculation */
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style for navbar links */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Style for the dropdown content */
-.dropdown {
-  overflow: hidden;
-}
-
-/* Style for the dropdown button/link */
-.dropdown .dropbtn {
-  font-size: 20px;
-  border: none;
-  outline: none;
-  color: #006bb4;
-  background-color: inherit;
-  
-}
-
-/* Style for the dropdown content when the mouse is over it */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Style for the dropdown menu items */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  border: 2px solid #006bb4;
-  border-radius: 10px;
-  padding: 0px;
-  color: #006bb4;
-  background-color: white;
-  min-width: 160px;
-  min-height: 210px;
-}
-
-.dropdown-content a {
-  float: none;
-  color: #006bb4;
-  padding-left: 10px;
-  padding-bottom: 15px;
-  padding-right: 80px;
-  text-decoration: none;
-  font-style: italic;
-  display: block;
-  text-align: left;
-}
-
-.dropdowncontents {
-  height: 30px;
 }

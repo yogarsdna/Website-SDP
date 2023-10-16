@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edit Faculty Page</title>
-    <link rel="stylesheet" href="styleaddfaculty.css" />
-    <link rel="icon" href="images/logo.png" />
+    <title>Edit Group Page</title>
+    <link rel="stylesheet" href="styleaddcourse.css" />
+    <link rel="icon" href="/images/logo.png" />
   </head>
   <body>
     <div class="content-container">
@@ -15,11 +15,11 @@
           <ul>
             <li>
               <div class="containerlogo">
-                <img class="tsulogo" src="images/logo.png" />
+                <img class="tsulogo" src="/images/logo.png" />
                 <p class="tsuadmin">admin</p>
               </div>
             </li>
-            <li class="tsu">TSU</li>
+            <a href="../main.html"><li class="tsu">TSU</li></a> 
             <li><a href="">Dashboard</a></li>
             <li><a href="">Autumn</a></li>
             <li><a href="">Spring</a></li>
@@ -28,25 +28,21 @@
           </ul>
         </div>
       </nav>
-      <div class="dashboard">Dashboard > Manage > Faculties > Faculty of Geology and Geography</div>
+      <div class="dashboard">Dashboard > Manage > Coursework > Civil Procedure and Litigation</div>
 
       <!-- Manage -->
-      <div class="managetext">Edit Faculty</div>
+      <div class="managetext">Edit Coursework</div>
 
       <div class="input-container">
-        <div class="label">Faculty Name</div>
+        <div class="label">Programme</div>
         <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
     </div>
     <div class="input-container">
-        <div class="label">Dean</div>
-        <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
-    </div>
-    <div class="input-container">
-        <div class="label">Email</div>
-        <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
-    </div>  <div class="input-container">
-        <div class="label">Phone</div>
-        <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
+        <div class="label">Faculty</div><select class="dropdownfaculty">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option></select>
     </div> 
     <div class="button-container"><button class="buttonsave">Save</button>
          <button class="buttondelete">Delete</button></div>
