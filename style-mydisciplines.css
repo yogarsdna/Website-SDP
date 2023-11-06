@@ -1,0 +1,236 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.logout {
+  float: right;
+  font-size: 20px;
+}
+
+.wrapper {
+  border-bottom: 4px #006bb4 solid;
+  width: 170vh;
+  margin: auto;
+  height: 130px;
+  margin-bottom: 40px;
+}
+
+.menu {
+  float: right;
+}
+
+li {
+  margin-right: 45px;
+}
+
+a {
+  color: #006bb4;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  background: #ffffff;
+}
+
+nav ul {
+  height: 130px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  color: #006bb4;
+  font-family: Arial;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+.tsu {
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.tsulogo {
+  float: left;
+  margin-top: 15px;
+  width: 40.33px;
+  height: 46px;
+}
+
+.tsuadmin {
+  float: left;
+  font-style: italic;
+}
+
+.containerlogo {
+  text-align: center;
+}
+
+.dashboard {
+  width: 170vh;
+  display: block;
+  margin: auto;
+  color: rgba(131, 131, 131, 0.63);
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.navigateto {
+  width: 170vh;
+  display: block;
+  margin: auto;
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 13px;
+}
+
+.managetext {
+  width: 170vh;
+  display: block;
+  margin: auto;
+
+  color: #006bb4;
+  font-size: 48px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-top: 73px;
+  margin-bottom: 20px;
+}
+
+
+.item1biru {
+  background-color: #0d8de0;
+  width: 100%; /* Set the desired width of the container */
+  border-radius: 10px;
+  height: 56px;
+
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.itembiruitalic {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  font-style: italic;
+  font-weight: 0;
+}
+
+.itembirutext {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  width: 170vh;
+  margin: auto;
+  background-color: #006bb4; /* Background color of the footer */
+  color: #fff; /* Text color */
+  text-align: right; /* Align text to the right */
+  position: relative; /* Enable absolute positioning for the text */
+  height: 143px;
+}
+
+.bottom-right-text {
+  position: absolute; /* Position the text absolutely */
+  bottom: 0; /* Align text to the bottom */
+  right: 10px;
+  padding: 10px; /* Align text 10 pixels from the right edge */
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.content-container {
+  min-height: 120vh; /* Minimum height to push content above the footer */
+  margin: 0;
+  box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+/* Style for the dropdown button/link */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #006bb4;
+  background-color: inherit;
+}
+
+/* Style for the dropdown content when the mouse is over it */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for the dropdown menu items */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 2px solid #006bb4;
+  border-radius: 10px;
+  padding: 0px;
+  color: #006bb4;
+  background-color: white;
+  min-width: 160px;
+  min-height: 210px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #006bb4;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-right: 80px;
+  text-decoration: none;
+  font-style: italic;
+  display: block;
+  text-align: left;
+  font-size: 20px;
+}
+
+.dropdowncontents {
+  height: 30px;
+}

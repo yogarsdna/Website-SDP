@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="style-myprofile.css" />
+    <link rel="icon" href="/images/logo.png" />
+  </head>
+  <body>
+    <div class="content-container">
+      <nav>
+        <div class="wrapper">
+          <ul>
+            <li>
+              <div class="containerlogo">
+                <img class="tsulogo" src="/images/logo.png" />
+                <p class="tsuadmin">Student</p>
+              </div>
+            </li>
+           <a href="../main.html"><li class="tsu">TSU</li></a> 
+            <li><a href="">My Disciplines</a></li>
+            <li><a href="">Profile</a></li>     
+            <a class="logout" href="">Log out</a>
+          </ul>
+        </div>
+      </nav>
+      
+
+      <!-- Manage -->
+      <div class="managetext">My Profile </div>
+      <div class="two-columns-grid">
+        <div class="col1">
+            <div id="avatar"></div>
+            <a class="change-pass">Change Password</a>
+        </div>
+        <div class="col2">
+            <div class="input-container">
+                <div class="label">Name</div>
+                <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
+            </div>  
+            <div class="input-container">
+                <div class="label">Date of birth</div>
+                <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
+            </div>  
+            <div class="input-container">
+                <div class="label">Email</div>
+                <div class="input-field"><input type="email" id="textfield" name="textfield" placeholder="Enter text here"></div>
+            </div>  
+            <div class="input-container">
+                <div class="label">Phone</div>
+                <div class="input-field"><input type="number" id="textfield" name="textfield" placeholder="Enter text here"></div>
+            </div>  
+            <div class="input-container">
+                <input type='checkbox'>
+                <span></span>
+                Online
+              </div>
+            <div class="input-container">
+                <div class="label">Faculty</div>
+                <select class="dropdownfaculty">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option></select>
+            </div><div class="input-container">
+                <div class="label">Grade</div>
+                <select class="dropdownfaculty">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option></select>
+            </div>
+        </div>
+    </div>
+
+    <button class="button">Save</button>
+
+      
+
+    <div class="footer">
+      <div class="bottom-right-text">2023</div>
+    </div>
+    <!-- <footer> <span class="bottom-right-text">2023</span></footer> -->
+  </body>
+</html>
