@@ -125,7 +125,6 @@ nav ul li {
   margin-bottom: 20px;
 }
 
-
 .item1biru {
   background-color: #0d8de0;
   width: 100%; /* Set the desired width of the container */
@@ -217,7 +216,19 @@ nav ul li {
   min-width: 160px;
   min-height: 210px;
 }
+.containernavigate {
+  width: 171vh;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
 
+/* Style for the rows */
+.row {
+  display: flex;
+  justify-content: space-between; /* Space items evenly within each row */
+  margin-bottom: 20px; /* Add margin between rows */
+}
 .dropdown-content a {
   float: none;
   color: #006bb4;
