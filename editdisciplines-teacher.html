@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+
     <title>Edit Disciplines</title>
     <link rel="stylesheet" href="style-editmydisciplines.css" />
     <link rel="icon" href="/images/logo.png" />
   </head>
   <body>
+    
+    
+
     <div class="content-container">
       <nav>
         <div class="wrapper">
@@ -20,15 +27,14 @@
               </div>
             </li>
             <a href="../main.html"><li class="tsu">TSU</li></a> 
-            <li><a href="">Dashboard</a></li>
-            <li><a href="">Autumn</a></li>
-            <li><a href="">Spring</a></li>
-            <li><a href="">Manage</a></li>
+            <li><a href="mydisciplines-teacher.html">My Disciplines</a></li>
+            <li><a href="my-profileteacher.html">Profile</a></li>
+           
             <a class="logout" href="">Log out</a>
           </ul>
         </div>
       </nav>
-      <div class="dashboard">My Disciplines > Edit Disciplines</div>
+      <div class="dashboard">Dashboard > Manage > Disciplines > Edit Disciplines > Mathematics for Computer Science</div>
 
       <!-- Manage -->
       <div class="managetext">Edit Disciplines</div>
@@ -36,7 +42,7 @@
     
       <div class="input-container">
           <div class="label">Name</div>
-          <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
+          <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Mathematics for Computer Science"></div>
       </div>  
       <div class="input-container">
         <div class="label">Teacher</div>
@@ -54,14 +60,14 @@
           <option value="option3">Option 3</option>
           <option value="option4">Option 4</option></select>
   </div>
-    <div class="input-container">
-        <div class="label">Grade</div>
-        <select class="dropdownfaculty">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
-            <option value="option4">Option 4</option></select>
-    </div>
+  <div class="input-container">
+    <div class="label">Grade</div>
+    <select class="dropdownfaculty">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        <option value="option4">Option 4</option></select>
+</div>
     <div class="input-container">
       <div class="label">Group</div>
       <select class="dropdownfaculty">
@@ -72,19 +78,27 @@
   </div>
   <div class="input-container">
     <div class="label">Description</div>
-    <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
+    <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Mathematics for Computer Science is a course"></div>
 </div>
 <div class="input-container">
   <div class="label">Readings and Literature</div>
-  <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
+  <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="The Hundred-Page Mathematics for Computer Science Book by Andriy Burkov"></div>
 </div>
-<div class="input-container">
-  <input type='checkbox'>
+<!-- <div class="input-container">
+  <input type="checkbox">
   <span></span>
   Online
+</div> -->
+<div class="input-container">
+  <div class="checkbox-container" style="width: 100%; height: 100%; position: relative ;margin-bottom: 10px;">
+    <input type='checkbox' id="checkboxremove">
+    <div class="student-text-checkbox">Online</div>
+  </div>
 </div>
 
-  <div class="input-container">
+
+<br><br><br>
+  <div class="input-container" id="building">
     <div class="label">Building</div>
     <select class="dropdownfaculty">
         <option value="option1">Option 1</option>
@@ -92,7 +106,7 @@
         <option value="option3">Option 3</option>
         <option value="option4">Option 4</option></select>
 </div>
-<div class="input-container">
+<div class="input-container" id="room">
   <div class="label">Room</div>
   <select class="dropdownfaculty">
       <option value="option1">Option 1</option>
@@ -109,4 +123,26 @@
  <div class="footer">
    <div class="bottom-right-text">2023</div>
  </div>
+
+ <script>
+  function toggleCheckbox() {
+      var checkbox = document.getElementById('checkboxremove');
+      var div1 = document.getElementById('building');
+      var div2 = document.getElementById('room');
+
+      if (checkbox.checked) {
+          div1.classList.add('hidden');
+          div2.classList.add('hidden');
+      } else {   
+          div1.classList.remove('hidden');
+          div2.classList.remove('hidden');
+      }
+  }
+  document.getElementById('checkboxremove').addEventListener('change', toggleCheckbox);
+</script>
+
+
+
+
+ </body>
 </html>

@@ -296,7 +296,9 @@ input[type="text"] {
 label input {
   display: none; /* Hide the default checkbox */
 }
-
+.hidden {
+  display: none;
+}
 /* Style the artificial checkbox */
 label span {
   height: 10px;
@@ -304,6 +306,29 @@ label span {
   border: 1px solid grey;
   display: inline-block;
   position: relative;
+}
+
+input[type="checkbox"] {
+  width: 35px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  outline: 1px #9fcae6 solid;
+}
+
+.student-text-checkbox {
+  width: 261px;
+  left: 45px;
+  top: 9px;
+  position: absolute;
+  color: black;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 700;
+  word-wrap: break-word;
 }
 
 /* Style its checked state...with a ticked icon */
@@ -350,8 +375,6 @@ select {
   background-position: right center;
   background-position: calc(100% - 20px) center;
 }
-
-
 .buttonsave {
   background-color: #006bb4;
   padding: 10px 20px;

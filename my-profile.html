@@ -19,72 +19,131 @@
                 <p class="tsuadmin">Student</p>
               </div>
             </li>
-           <a href="../main.html"><li class="tsu">TSU</li></a> 
+            <a href="../main.html"><li class="tsu">TSU</li></a>
             <li><a href="mydisciplines.html">My Disciplines</a></li>
-            <li><a href="">Profile</a></li>     
+            <li><a href="">Profile</a></li>
             <a class="logout" href="">Log out</a>
           </ul>
         </div>
       </nav>
-      
 
       <!-- Manage -->
-      <div class="managetext">My Profile </div>
+      <div class="managetext">My Profile</div>
       <div class="two-columns-grid">
         <div class="col1">
-            <div id="avatar"></div>
-            <a class="change-pass" href="changepassword-student.html">Change Password</a>
+          <div id="avatar"></div>
+          <a class="change-pass" href="changepassword-student.html"
+            >Change Password</a
+          >
         </div>
         <div class="col2">
-            <div class="input-container">
-                <div class="label">Name</div>
-                <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
-            </div>  
-            <div class="input-container">
-                <div class="label">Date of birth</div>
-                <div class="input-field"><input type="text" id="textfield" name="textfield" placeholder="Enter text here"></div>
-            </div>  
-            <div class="input-container">
-                <div class="label">Email</div>
-                <div class="input-field"><input type="email" id="textfield" name="textfield" placeholder="Enter text here"></div>
-            </div>  
-            <div class="input-container">
-                <div class="label">Phone</div>
-                <div class="input-field"><input type="tel" id="textfield" name="textfield" placeholder="Enter text here"></div>
-            </div>  
-           
-              <div class="checkbox-container" style="width: 100%; height: 100%; position: relative">
-                <input type='checkbox'>
-                
-                <div class="student-text-checkbox">Student</div>
-                
-                </div>
-
-            <div class="input-container">
-                <div class="label">Faculty</div>
-                <select class="dropdownfaculty">
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                    <option value="option4">Option 4</option></select>
-            </div><div class="input-container">
-                <div class="label">Grade</div>
-                <select class="dropdownfaculty">
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                    <option value="option4">Option 4</option></select>
+          <div class="input-container">
+            <div class="label">Name</div>
+            <div class="input-field">
+              <input
+                type="text"
+                id="textfield"
+                name="textfield"
+                placeholder="Bae Suzy"
+              />
             </div>
+          </div>
+          <div class="input-container">
+            <div class="label">Date of birth</div>
+            <div class="input-field">
+              <input
+                type="text"
+                id="textfield"
+                name="textfield"
+                placeholder="31.08.2004"
+              />
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="label">Email</div>
+            <div class="input-field">
+              <input
+                type="email"
+                id="textfield"
+                name="textfield"
+                placeholder="suzy@soop.com"
+              />
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="label">Phone</div>
+            <div class="input-field">
+              <input
+                type="tel"
+                id="textfield"
+                name="textfield"
+                placeholder="+82 911 537 31 75"
+              />
+            </div>
+          </div>
+
+          <div class="input-container">
+            <div
+              class="checkbox-container"
+              style="
+                width: 100%;
+                height: 100%;
+                position: relative;
+                margin-bottom: 10px;
+              "
+            >
+              <input type="checkbox" id="checkboxremove" />
+              <div class="student-text-checkbox">Online</div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <div class="input-container" id="building">
+            <div class="label">Building</div>
+            <select class="dropdownfaculty">
+              <option value="option1">Higher IT School</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+              <option value="option4">Option 4</option>
+            </select>
+          </div>
+          <div class="input-container" id="room">
+            <div class="label">Room</div>
+            <select class="dropdownfaculty">
+              <option value="option1">Bachelor, 4th Year</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+              <option value="option4">Option 4</option>
+            </select>
+          </div>
         </div>
+      </div>
     </div>
 
     <button class="button">Save</button>
-
-      
 
     <div class="footer">
       <div class="bottom-right-text">2023</div>
     </div>
     <!-- <footer> <span class="bottom-right-text">2023</span></footer> -->
+
+    <script>
+      function toggleCheckbox() {
+        var checkbox = document.getElementById("checkboxremove");
+        var div1 = document.getElementById("building");
+        var div2 = document.getElementById("room");
+
+        if (checkbox.checked) {
+          div1.classList.add("hidden");
+          div2.classList.add("hidden");
+        } else {
+          div1.classList.remove("hidden");
+          div2.classList.remove("hidden");
+        }
+      }
+      document
+        .getElementById("checkboxremove")
+        .addEventListener("change", toggleCheckbox);
+    </script>
   </body>
 </html>

@@ -56,20 +56,63 @@
           />
         </div>
         <div class="Group7">
+          <div
+            class="checkbox-container"
+            style="
+              width: 100%;
+              height: 100%;
+              position: relative;
+              margin-bottom: 10px;
+              margin-right: 340px;
+            "
+          >
+            <input type="checkbox" id="checkboxremove" />
+            <div class="student-text-checkbox">Student</div>
+          </div>
+        </div>
+        <br /><br />
+        <div class="Group8" id="faculty">
           <div class="input-instruction left-align">Faculty</div>
-          <select id="faculty" name="faculty" required>
+          <select name="faculty" required>
             <option value="" disabled selected>Select Faculty</option>
             <option value="faculty1">Faculty 1</option>
             <option value="faculty2">Faculty 2</option>
             <option value="faculty3">Faculty 3</option>
           </select>
         </div>
-        
+        <div class="Group9" id="group">
+          <div class="input-instruction left-align">Group</div>
+          <select name="group" required>
+            <option value="" disabled selected>Select Group</option>
+            <option value="group1">972006</option>
+            <option value="group2">972005</option>
+            <option value="group3">972004</option>
+          </select>
+        </div>
 
         <button class="button2">
           <a class="plain" href="avatar.html">Next</a>
         </button>
       </div>
     </div>
+
+    <script>
+      function toggleCheckbox() {
+        var checkbox = document.getElementById("checkboxremove");
+        var div1 = document.getElementById("faculty");
+        var div2 = document.getElementById("group");
+
+        if (checkbox.checked) {
+          div1.classList.remove("hidden");
+          div2.classList.remove("hidden");
+        } else {
+          div1.classList.add("hidden");
+          div2.classList.add("hidden");
+        }
+      }
+      document
+        .getElementById("checkboxremove")
+        .addEventListener("change", toggleCheckbox);
+    </script>
   </body>
 </html>
